@@ -3,7 +3,7 @@ const API_KEY = 'd29d332e8c753e19ffbb3c480405a843';
 export async function fetchWeather() {
   try {
     // Fetch weather data for Edmond, Oklahoma
-    const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=Norman, US&appid=${API_KEY}&units=metric`);
+    const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=edmond, US&appid=${API_KEY}&units=metric`);
     
     if (!response.ok) {
       throw new Error('Failed to fetch weather data');
