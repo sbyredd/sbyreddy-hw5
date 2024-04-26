@@ -12,7 +12,7 @@ const BoredView = () => {
   return (
     <div>
       <h1> Welcome to Bored App</h1>
-      <p>{activity || 'Click the button to get a suggestion'}</p>
+      <p>{activity || 'Click button to get a suggestion'}</p>
       <button onClick={handleClick}>get advice</button>
     </div>
   )
